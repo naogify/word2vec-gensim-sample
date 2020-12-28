@@ -17,6 +17,9 @@ https://github.com/naogify/python3-mecab-neologd-dockerfile/blob/master/README.m
 
 ## Getting Started
 
+dockerにログイン後、ディレクトリ移動。
+`$ cd home/`
+
 ### 分かち書き実行
 `$ python3 wakati.py`  
 `kokoro.txt` に対して分かち書きを実行。`kokoro_wakati.txt` を生成。
