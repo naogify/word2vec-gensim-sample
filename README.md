@@ -6,13 +6,12 @@ Dockerfile for Python3.6, Mecab, Neologd.
 ## Getting Started
 
 1. build image  
-`$ docker build -t container:1.0 .`
+`$ docker build -t container:1.0 .`  
 Option can change `container` to your container name.
 
 2. run container  
 Change `[YOUR-DIR-NAME]` to yours.  
-`$ docker run -it -p 8888:8888 -v ~/Desktop/[YOUR-DIR-NAME]:/home container:1.0`
-
+`$ docker run -it -p 8888:8888 -v ~/Desktop/[YOUR-DIR-NAME]:/home container:1.0`  
 Option can change `container` to your container name.
 
 
