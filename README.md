@@ -11,7 +11,7 @@ Dockerfile for Python3.6, Mecab, Neologd.
 2. run container  
 `$ docker run -it -p 8888:8888 -v ~/Desktop/[YOUR-DIR-NAME]:/home container:1.0`  
 
-NOTE: can change `container` to your container name.
+NOTE: You can change `container` to your container name.
 
 ## Stop and Delete
 1. stop container
