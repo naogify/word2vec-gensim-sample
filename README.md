@@ -1,17 +1,16 @@
-# python3-mecab-neologd-dockerfile
+# Word2Vec
 
-Dockerfile for Python3.6, Mecab, Neologd.
+Tutorial for Word2Vec.
 
+Dockerfile contains Python3.6, Mecab, Neologd.
 
 ## Getting Started
 
 1. build image  
-`$ docker build -t container:1.0 .`  
-
+`$ docker build -t word2vec:1.0 .`
 2. run container  
-`$ docker run -it -p 8888:8888 -v ~/Desktop/[YOUR-DIR-NAME]:/home container:1.0`  
-
-NOTE: You can change `container` to your container name.
+Change `[YOUR-DIR-NAME]` to yours.
+`$ docker run -it -p 8888:8888 -v ~/Desktop/[YOUR-DIR-NAME]:/home word2vec:1.0`
 
 ## Stop and Delete
 1. stop container
@@ -21,7 +20,7 @@ NOTE: You can change `container` to your container name.
 3. delete image
 `$ docker rmi imageID`
 
-## Check Image and Container
+## Check
 1. check docker container
 `$ docker ps -a`
 2. check docker images
