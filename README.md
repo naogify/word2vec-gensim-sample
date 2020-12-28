@@ -21,7 +21,7 @@ NOTE: You can change `container` to your container name.
 3. delete image
 `$ docker rmi imageID`
 
-## Check
+## Check Image and Container
 1. check docker container
 `$ docker ps -a`
 2. check docker images
