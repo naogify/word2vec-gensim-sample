@@ -1,4 +1,4 @@
-# Word2Vec
+# word2vec-gensim-sample
 
 Tutorial for Word2Vec.
 
