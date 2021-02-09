@@ -2,8 +2,6 @@
 
 Tutorial for Word2Vec.
 
-Based on https://techacademy.jp/magazine/30591.
-
 
 ## Run Docker
 
